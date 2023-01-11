@@ -1,0 +1,66 @@
+/* INTER SAFE */
+.interSafe {
+  @apply
+  w-full
+  p-8
+  flex
+  flex-col
+  lg:flex-row
+  lg:justify-around
+  lg:items-center
+
+  text-stone-800
+  bg-[#f5f6fa]
+  font-Inter
+}
+
+.interSafeImage {
+  @apply
+  p-2
+}
+
+.interSafeGroup {
+  @apply
+  lg:w-[25%]
+  font-Sora
+}
+
+.interSafeGroup h2 {
+  @apply
+  flex
+  flex-col 
+
+  text-3xl
+  lg:text-[2.5rem]
+  lg:leading-tight
+  font-semibold
+}
+
+.interSafeGroup h2 span {
+  @apply
+  my-4
+  text-lg
+  lg:text-2xl
+  text-stone-500
+}
+
+.interSafeGroup p {
+  @apply
+  my-4
+  text-lg
+  text-stone-600
+}
+
+.interSafeGroup button {
+  @apply
+  mt-5
+  w-full
+  p-3
+
+  font-semibold
+  text-white
+  bg-[#FF7A00]
+  hover:bg-[#FF8A00]
+
+  rounded-lg
+}

@@ -1,0 +1,71 @@
+.interHomeBottom {
+  @apply
+  w-full
+  lg:h-full 
+  h-96
+  
+  bg-[#FF7A00]
+  relative
+
+  flex
+  flex-row
+  lg:justify-between
+  lg:items-center
+  overflow-hidden
+  font-Sora
+}
+
+.interHomeBottom img {
+  @apply
+  w-full
+  lg:w-[60%]
+  h-full
+  object-cover
+}
+
+.interHomeBottomBoxOverlayer {
+  @apply
+  absolute
+  lg:relative
+  z-10
+
+  w-full
+  h-full
+  
+  bg-black/60
+  lg:bg-black/0
+
+  flex
+  justify-center
+  items-end
+  lg:items-center
+} 
+
+
+.interHomeBottomBoxText {
+  @apply
+  /* p-4   */
+  
+  flex
+  lg:flex-1
+  justify-center
+  items-center
+
+  text-white
+  font-bold
+  z-20
+
+}
+
+.interHomeBottomBoxText p {
+  @apply
+  m-6
+  p-2
+  w-4/5
+  lg:w-[45%]
+  lg:text-[2.5rem]
+  lg:leading-tight
+  text-2xl
+  text-white
+  font-semibold
+}

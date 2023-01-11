@@ -1,0 +1,56 @@
+/* INTER BANK */
+.interBank {
+  @apply
+  lg:w-[70%]
+
+  flex
+  flex-col
+  lg:flex-row
+  lg:justify-around
+  lg:items-center
+}
+.interBankImage {
+  @apply
+  m-4
+  p-4
+}
+.interBankGroup {
+  @apply
+  lg:w-[43%]
+
+  m-2
+  p-2
+  font-Inter
+
+}
+.interBankGroup h2 {
+  @apply
+  flex
+  flex-col 
+
+  text-2xl
+  lg:text-[2.5rem]
+  lg:leading-tight
+  font-semibold
+  font-Sora
+}
+.interBankGroup h2 span {
+  @apply
+  my-4
+  text-lg
+  lg:text-2xl
+  text-stone-500
+}
+.interBankGroup p {
+  @apply
+  my-4
+  text-lg
+  text-[#6a6c72]
+}
+.interBankGroup a {
+  @apply
+  text-[#FF7A00]
+  font-semibold
+
+  hover:brightness-75
+}

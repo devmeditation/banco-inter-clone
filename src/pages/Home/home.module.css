@@ -1,0 +1,7 @@
+.home {
+  @apply   
+  flex 
+  flex-col 
+  justify-center 
+  items-center
+}

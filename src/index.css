@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply
+  antialiased
+  /* bg-[#58595b] */
+  /* text-[#6a6c72] */
+  /* text-[#161616] */
+}

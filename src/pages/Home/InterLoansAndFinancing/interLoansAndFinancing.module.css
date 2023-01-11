@@ -1,0 +1,65 @@
+/* INTER LOANS AND FINANCING */
+.interLoansAndFinancing {
+  @apply
+  w-full
+  m-8
+  p-8
+  flex
+  flex-col
+  lg:flex-row-reverse
+  lg:justify-around
+  lg:items-center
+  text-stone-800
+
+  font-Inter
+}
+
+.interLoansAndFinancingImage {
+  @apply
+  p-2
+}
+
+.interLoansAndFinancingGroup {
+  @apply
+  lg:w-[27%]
+  font-Sora
+}
+
+.interLoansAndFinancingGroup h2 {
+  @apply
+  flex
+  flex-col 
+
+  text-3xl
+  lg:text-[2.5rem]
+  lg:leading-tight
+  font-semibold
+}
+
+.interLoansAndFinancingGroup h2 span {
+  @apply
+  my-4
+  text-lg
+  lg:text-2xl
+  text-stone-500
+}
+.interLoansAndFinancingGroup p {
+  @apply
+  my-4
+  text-lg
+  text-stone-600
+}
+.interLoansAndFinancingGroup button {
+  @apply
+  mt-5
+  w-full
+  lg:w-[70%]
+  p-3
+
+  font-semibold
+  text-white
+  bg-[#FF7A00]
+  hover:bg-[#FF8A00]
+
+  rounded-lg
+}

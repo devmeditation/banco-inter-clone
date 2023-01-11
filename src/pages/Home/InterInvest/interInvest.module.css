@@ -1,0 +1,67 @@
+/* ITNER INVEST */
+.interInvest {
+  @apply
+  m-4
+  flex
+  flex-col
+  lg:flex-row-reverse
+  lg:justify-between
+  lg:items-center
+
+  text-stone-800
+  font-Inter
+}
+
+.interInvestImage {
+  @apply
+  m-8
+  p-2
+  scale-95
+  lg:scroll-auto
+}
+
+.interInvestGroup {
+  @apply
+  lg:w-[30%]
+  font-Sora
+}
+
+.interInvestGroup h2 {
+  @apply
+  py-2
+  flex
+  flex-col 
+
+  text-2xl
+  lg:text-[2.5rem]
+  leading-tight
+  font-semibold
+}
+
+.interInvestGroup h2 span {
+  @apply
+  my-4
+  text-lg
+  lg:text-2xl
+  text-[#6a6c72]
+}
+.interInvestGroup p {
+  @apply
+  my-2
+  text-lg
+  text-[#6a6c72]
+}
+.interInvestGroup button {
+  @apply
+  lg:w-[80%]
+  mt-5
+  w-full
+  p-3
+
+  font-medium
+  text-white
+  bg-[#FF7A00]
+  hover:bg-[#FF8A00]
+
+  rounded-lg
+}

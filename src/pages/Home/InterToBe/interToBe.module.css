@@ -1,0 +1,134 @@
+.interToBe {
+  @apply
+  p-5
+  w-full
+  /* overflow-hidden */
+}
+.interToBeText {
+  @apply
+  /* py-12 */
+  font-Inter
+}
+.interToBeText h2 {
+  @apply
+  ml-1
+  /* py-5 */
+
+  flex
+  flex-col
+  font-semibold
+  text-2xl
+  lg:text-[2.5rem]
+  leading-tight
+}
+.interToBeText p {
+  @apply
+  py-5
+  text-lg
+  leading-tight
+  text-gray-500
+}
+.interToBeCards {
+  @apply
+  flex
+  flex-row
+  
+}
+
+.card {
+  @apply
+  w-full
+  h-60
+
+  m-2
+
+  flex
+  flex-col
+  justify-around
+  items-center
+
+  bg-stone-100
+
+}
+
+.card svg {
+  @apply
+  w-12
+  fill-[#FF7a00]
+}
+
+.cardControls {
+  @apply
+  flex
+  flex-col-reverse
+  lg:flex-row
+  justify-between
+}
+
+
+.interToBeControls {
+  @apply
+  flex
+  flex-col
+  my-10
+}
+
+.interCards {
+  @apply
+  flex
+  gap-2
+
+  overflow-scroll
+  snap-x
+}
+
+
+.cardButton {
+  @apply
+  lg:w-1/4
+}
+
+.cardButton button {
+  @apply
+  mt-5
+  w-full
+  p-3
+
+  font-semibold
+  text-white
+  bg-[#FF7A00]
+  hover:bg-[#FF8A00]
+
+  rounded-lg
+}
+
+.arrowDot {
+  @apply
+  lg:w-1/2 
+  flex 
+  items-center 
+  justify-between
+}
+
+.arrowDot svg {
+  @apply
+  w-8
+  fill-[#ff8700]
+}
+
+.dot span {
+ @apply
+  inline-block
+  cursor-pointer
+  h-2
+  w-2
+  mx-1
+  bg-[#fcc999]
+  rounded-full
+  
+  /* transition: background-color 0.6s ease; */
+}
+
+.active, .dot span:hover {
+  background-color: #FF7A00;
+}

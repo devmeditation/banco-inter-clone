@@ -1,0 +1,72 @@
+.interHomeBanner {
+  @apply
+  w-full
+  h-96
+
+  p-4
+ 
+  flex
+  flex-col
+  justify-center
+  items-center
+  text-center
+
+  bg-[#FF7A00]
+  text-2xl
+  text-white
+
+  font-Inter
+}
+
+.interHomeBanner h2 {
+  @apply
+  my-4
+  font-Inter
+  lg:text-4xl
+}
+
+.interHomeBanner span {
+  @apply
+  my-4
+  text-orange-300
+  text-3xl
+  lg:text-8xl
+}
+.interHomeBanner strong {
+  @apply
+  text-white
+}
+
+.interHomeBanner p {
+  @apply
+  p-4
+  text-base
+  font-medium
+}
+
+.interHomeBanner button {
+  @apply
+  w-3/4
+  lg:w-1/6
+  p-3
+  lg:mt-4
+
+  flex
+  justify-center
+  items-center
+  gap-2
+
+  bg-white
+  text-base
+  text-[#FF7A00]
+  hover:brightness-95
+  rounded-lg
+}
+
+.interHomeBanner button strong {
+  @apply
+  font-medium
+  hover:text-black
+  text-[#FF7A00]
+
+}

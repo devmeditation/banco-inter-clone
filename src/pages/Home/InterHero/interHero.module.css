@@ -1,0 +1,73 @@
+.interHero {
+  @apply
+  max-w-screen-2xl
+  p-6
+  py-12
+ 
+  flex
+  flex-col
+  lg:flex-row-reverse
+  
+  
+  justify-center
+  lg:justify-between
+  items-center
+
+  font-Inter
+}
+
+.interHeroImage {
+  @apply
+  p-2
+}
+
+.interHeroGroup {
+  @apply
+  lg:w-[37%]
+  font-Sora
+}
+
+.interHeroGroup h2 {
+  @apply
+  lg:w-[74%]
+
+  py-5
+  
+
+  flex
+  flex-col
+  font-semibold
+  text-[1.25rem]
+  lg:text-3xl
+  
+}
+
+.interHeroGroup h2 span {
+  @apply
+  py-4
+  text-2xl
+  lg:text-[2.5rem]
+  text-[#FF7A00]  
+}
+
+.interHeroGroup p {
+  @apply
+  /* pr-3 */
+  text-sm
+  lg:text-lg
+}
+
+.interHeroGroup button {
+  @apply
+  lg:w-[65%]
+  mt-5
+  w-full
+  p-3
+
+  font-semibold
+  text-white
+  bg-[#FF7A00]
+  hover:bg-[#FF8A00]
+
+  rounded-lg
+}

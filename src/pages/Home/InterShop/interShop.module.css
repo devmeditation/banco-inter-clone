@@ -1,0 +1,71 @@
+/* INTER SHOP */
+.interShop {
+  @apply
+  m-4
+  flex
+  flex-col
+  lg:flex-row
+  lg:justify-around
+  lg:items-center
+  text-stone-800
+}
+.interShopImage {
+  @apply
+  px-1
+}
+
+.interShopGroup {
+  @apply
+  lg:w-[32%]
+  font-Inter
+}
+
+.interShopGroup h2 {
+  @apply
+  my-4
+  flex
+  flex-col
+  text-2xl
+  lg:text-[2.5rem]
+  lg:leading-tight
+  font-semibold
+}
+.interShopGroup span {
+  @apply
+  my-2
+  text-lg
+  lg:text-2xl
+  text-stone-500
+
+  font-Sora
+}
+.interShopGroup ul {
+  @apply
+  my-2
+}
+.interShopGroup li {
+  @apply
+  p-1
+  flex
+  gap-2
+}
+.interShopGroup a {
+  @apply
+  text-[#FF7A00]
+  font-semibold
+
+  hover:brightness-75
+}
+.interShopGroup button {
+  @apply
+  mt-5
+  w-full
+  p-3
+
+  font-semibold
+  text-white
+  bg-[#FF7A00]
+  hover:bg-[#FF8A00]
+
+  rounded-lg
+}

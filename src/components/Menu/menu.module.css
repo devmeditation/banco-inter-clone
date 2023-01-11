@@ -1,0 +1,59 @@
+.menu {
+  @apply 
+  my-2
+  p-4
+
+  text-base
+  font-medium
+  font-Sora
+
+  flex
+  flex-col
+}
+
+.menuHeader {
+  @apply
+  flex
+  justify-between
+  pb-10
+}
+
+.menuHeaderSearch {
+  @apply
+  flex
+  items-center
+  text-[#FF7A00]
+  font-bold
+}
+
+.menuHeaderSearch svg {
+  @apply  
+  w-6
+  h-6
+}
+
+.menuHeaderSearch span {
+  @apply
+  ml-6
+  mr-4
+  /* px-1 */
+  flex
+  justify-between
+  
+  border
+  rounded-2xl
+  border-spacing-2
+  border-stone-300
+}
+.menuHeaderSearch span svg {
+  @apply
+  w-8
+  h-4
+  m-0.5
+  px-2
+  rounded-lg
+}
+.menuHeaderSearch span svg:nth-child(1) {
+  @apply
+  bg-slate-300
+}

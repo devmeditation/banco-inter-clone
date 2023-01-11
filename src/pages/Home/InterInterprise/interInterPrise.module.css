@@ -1,0 +1,76 @@
+/* INTER INTERPRISE */
+.interInterPrise {
+  @apply
+  m-8
+  flex
+  flex-col
+  lg:flex-row-reverse
+  lg:justify-between
+  lg:items-center
+
+  text-stone-800
+  font-Inter
+}
+
+.interInterPriseImage {
+  @apply
+  p-2
+}
+
+.interInterPriseGroup {
+  @apply
+  lg:w-[38%]
+  font-Sora
+}
+
+.interInterPriseGroup h2 {
+  @apply
+  flex
+  flex-col 
+
+  text-3xl
+  lg:text-[2.5rem]
+  lg:leading-tight
+  font-semibold
+}
+
+.interInterPriseGroup h2 span {
+  @apply
+  my-4
+  text-lg
+  lg:text-2xl
+  text-[#6a6c72]
+}
+.interInterPriseGroup p {
+  @apply
+  my-4
+  text-lg
+  text-[#6a6c72]
+}
+.interInterPriseGroup button {
+  @apply
+  lg:w-[70%]
+  mt-5
+  w-full
+  p-2
+
+  font-semibold
+  text-white
+  bg-[#FF7A00]
+  hover:brightness-95
+
+  rounded-xl
+}
+
+.interInterPriseGroup button ~ button {
+  @apply
+  text-[#FF9A00]
+  bg-white
+
+  border-2
+  border-[#FF8A00]
+  hover:border-[#FF5A00]
+  hover:text-[#FF5A00]
+  
+  hover:brightness-100
+}
