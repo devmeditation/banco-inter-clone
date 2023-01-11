@@ -27,7 +27,7 @@ export function InterToBe() {
               <PixSVG />
               <p>Pix</p>
             </div>
-            <div className={styles.card}>
+            {/* <div className={styles.card}>
               <InterCellSVG />
               <p>Inter Cel</p>
             </div>
@@ -38,7 +38,7 @@ export function InterToBe() {
             <div className={styles.card}>
               <GiftCard />
               <p>Gift Card</p>
-            </div>
+            </div> */}
           </div>
         </div>
 
