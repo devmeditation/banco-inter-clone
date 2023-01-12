@@ -1,5 +1,6 @@
 
 import styles from "./interShop.module.css";
+import { InterShopCarousel } from "./InterShopCarousel/InterShopCarousel";
 import { CashbackSVG } from "./SVG/CashbackSVG";
 import { CategorySVG } from "./SVG/CategorySVG";
 import { OfferSVG } from "./SVG/OfferSVG";
@@ -7,6 +8,7 @@ import { StoreSVG } from "./SVG/StoreSVG";
 
 export function InterShop() {
   return (
+    <>
     <section id="interShop" className={styles.interShop}>
         <div className={styles.interShopImage}>
           <img src="/interShop/inter-shop-home.png" alt="" />
@@ -39,7 +41,11 @@ export function InterShop() {
           </ul>
 
           <button>Ganhar Cashback</button>
+
         </div>
       </section>
+
+          <InterShopCarousel />
+      </>
   )
 }

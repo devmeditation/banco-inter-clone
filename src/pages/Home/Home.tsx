@@ -32,6 +32,7 @@ export function Home() {
   // }, [perc])
   return (
     <main className={styles.home}>
+            
       <InterHero />
 
       <InterToBe />

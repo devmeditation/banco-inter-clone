@@ -1,0 +1,36 @@
+.cardGroup {
+  @apply
+  m-2
+  p-2
+
+  flex
+  justify-start
+  items-center
+  
+
+  overflow-x-scroll
+}
+
+.card {
+  @apply
+  w-[11rem]
+  h-[12rem]
+  mx-4
+  p-2
+  
+  flex
+  flex-col
+  justify-between
+  items-center
+  
+  border
+  border-gray-400
+  rounded-2xl
+  translate-x-28
+}
+
+.card p {
+  @apply
+  text-green-500
+  font-bold
+}

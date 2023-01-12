@@ -1,22 +1,40 @@
 .menu {
-  @apply 
+  @apply
+  w-full
   my-2
   p-4
+
+  sticky
+  top-0
+  z-10
+  
+  flex
+  flex-col
 
   text-base
   font-medium
   font-Sora
-
-  flex
-  flex-col
+  bg-white 
 }
 
 .menuHeader {
   @apply
+  w-full
   flex
   justify-between
-  pb-10
+  lg:justify-around
 }
+
+.menuHeaderLogo {
+  @apply
+  flex
+  flex-col
+  justify-center
+  items-center
+
+  gap-2
+}
+
 
 .menuHeaderSearch {
   @apply

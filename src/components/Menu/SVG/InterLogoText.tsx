@@ -1,4 +1,4 @@
-export function LogoSmall() {
+export function InterLogoText() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -7,8 +7,6 @@ export function LogoSmall() {
       height="60px"
       viewBox="0 0 109 41"
       data-testid="icon"
-      // transform="rotate(0deg)"
-      className="undefined icon icon--banco-color fill-white"
     >
       <g>
         <text x="10" y="25" fill="#FF7A00" className="font-bold font-Inter text-2xl">

@@ -2,8 +2,6 @@
   @apply
   p-5
   w-full
-  /* overflow-hidden */
-
   font-Inter
 }
 
@@ -17,7 +15,6 @@
 .interToBeText {
   @apply
   lg:w-[30%]
-  /* py-12 */
   font-Sora
 }
 .interToBeText h2 {
@@ -41,20 +38,23 @@
   text-gray-500
 }
 
+.interToBeCardGroup {
+  @apply
+  w-screen
+  lg:w-[50%]
+  overflow-x-scroll
+}
+
 .interToBeCards {
   @apply
+  w-screen
   flex
   flex-row
-  w-screen
-  lg:w-[40%]
-
-
-  overflow-scroll
 }
 
 .card {
   @apply
-  w-full
+  /* w-[42rem]
   h-60
   m-2
 
@@ -62,8 +62,22 @@
   flex-col
   justify-around
   items-center
-
-  bg-stone-100
+  
+  translate-x-10 */
+  
+  bg-[#f5f6fa]
+  w-[22rem]
+  h-[16rem]
+  m-4
+  p-8
+  
+  flex
+  flex-col
+  justify-around
+  items-start
+  
+  rounded-2xl
+  translate-x-20
 
 }
 
@@ -111,7 +125,7 @@
 
 .arrowDot {
   @apply
-  lg:w-[40%]
+  lg:w-[50%]
   /* lg:w-1/2  */
   flex 
   items-center 
