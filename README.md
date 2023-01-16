@@ -23,6 +23,6 @@ Author: Dev Meditation
 
 ## LINKS
 
-- [Link para o Projeto](https://bancointer-devmeditation.netlify.app)
+- [Banco Inter Clone - 01-2023](https://bancointer-devmeditation.netlify.app)
 - [Youtube BCL-LAB](https://www.youtube.com/@bcllab)
 - [Banco Inter - Oficial](https://www.bancointer.com.br)
