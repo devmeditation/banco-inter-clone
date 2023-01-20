@@ -5,7 +5,7 @@
   flex
   flex-col
   lg:flex-row
-  lg:justify-around
+  lg:justify-between
   lg:items-center
   text-stone-800
 }

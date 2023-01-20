@@ -10,7 +10,6 @@ import { InterSafe } from "./InterSafe/InterSafe";
 import { InterLoansAndFinancing } from "./InterLoansAndFinancing/InterLoansAndFinancing";
 import { InterHomeBottom } from "./InterHomeBottom/InterHomeBottom.module";
 import { InterHomeBanner } from "./InterHomeBanner/InterHomeBanner";
-import { InterHero } from "./InterHero/InterHero";
 import { InterABetterWorld } from "./ABetterWorld/ABetterWorld";
 
 export function Home() {
@@ -35,8 +34,7 @@ export function Home() {
     <main className={styles.home}>
 
       <InterABetterWorld />      
-      {/* <InterHero /> */}
-
+     
       <InterToBe />
 
       <InterBank />
