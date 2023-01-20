@@ -1,0 +1,82 @@
+.interABetterWorldContainerBG {
+  @apply
+  lg:bg-[url(/aBetterWorld/a-better-world-desktop.png)]
+  bg-cover
+  bg-center
+  bg-origin-content
+  bg-no-repeat
+  
+  
+  lg:w-screen
+  lg:h-screen
+}
+.interABetterWorld {
+  @apply
+  max-w-screen-2xl
+  p-6
+  py-24
+ 
+  flex
+  flex-col
+  lg:flex-row-reverse
+  
+  
+  justify-center
+  /* lg:justify-between */
+  lg:justify-around
+  items-center
+
+  font-Inter
+}
+
+.interABetterWorldImage {
+  @apply
+  lg:invisible
+  p-2
+}
+
+.interABetterWorldGroup {
+  @apply
+  lg:w-[37%]
+  lg:text-white
+}
+
+.interABetterWorldGroup h2 {
+  @apply
+  font-Sora
+  lg:w-[94%]
+
+  py-10
+  
+  flex
+  flex-col
+
+  text-[2rem]
+  lg:text-7xl
+  lg:text-white
+  leading-tight
+  font-thin
+}
+
+
+.interABetterWorldGroup p {
+  @apply
+  /* pr-3 */
+  text-lg
+  lg:text-lg
+}
+
+.interABetterWorldGroup button {
+  @apply
+  lg:w-[55%]
+  my-10
+  w-full
+  py-3
+
+  font-semibold
+  hover:text-black
+  text-[#FF7A00]
+  bg-white
+  
+  rounded-lg
+}

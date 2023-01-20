@@ -11,6 +11,7 @@ import { InterLoansAndFinancing } from "./InterLoansAndFinancing/InterLoansAndFi
 import { InterHomeBottom } from "./InterHomeBottom/InterHomeBottom.module";
 import { InterHomeBanner } from "./InterHomeBanner/InterHomeBanner";
 import { InterHero } from "./InterHero/InterHero";
+import { InterABetterWorld } from "./ABetterWorld/ABetterWorld";
 
 export function Home() {
   // const [perc, setPerc] = useState(0)
@@ -32,8 +33,9 @@ export function Home() {
   // }, [perc])
   return (
     <main className={styles.home}>
-            
-      <InterHero />
+
+      <InterABetterWorld />      
+      {/* <InterHero /> */}
 
       <InterToBe />
 
