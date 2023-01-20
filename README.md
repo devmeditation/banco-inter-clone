@@ -1,9 +1,9 @@
 # Banco Inter Clone
 
-![screen](/public/github/1_desktop.png)
+![screen](/public/_noproject/01_screen.png)
 
-![mobile](/public/github/1_mobile.png)
-![mobile](/public/github/2_mobile.png)
+![mobile](/public/_noproject/1_mobile.png)
+![mobile](/public/_noproject/2_mobile.png)
 
 
 ## Projeto para estudo
@@ -26,3 +26,6 @@ Author: Dev Meditation
 - [Banco Inter Clone - 01-2023](https://bancointer-devmeditation.netlify.app)
 - [Youtube BCL-LAB](https://www.youtube.com/@bcllab)
 - [Banco Inter - Oficial](https://www.bancointer.com.br)
+
+![screen](/public/_noproject/1_demeditation_coding.png)
+![screen](/public/_noproject/2_demeditation_coding.png)
