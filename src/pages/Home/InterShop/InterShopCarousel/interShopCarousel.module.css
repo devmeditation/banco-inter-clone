@@ -1,14 +1,16 @@
 .cardGroup {
   @apply
+  w-full
+  /* w-[220rem] */
   m-2
   p-2
 
   flex
   justify-start
   items-center
+  gap-12
   
-
-  overflow-x-scroll
+  /* overflow-x-scroll */
 }
 
 .card {

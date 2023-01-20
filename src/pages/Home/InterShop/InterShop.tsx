@@ -44,8 +44,9 @@ export function InterShop() {
 
         </div>
       </section>
-
+      <section className={styles.interShopCardContainer}>
           <InterShopCarousel />
+      </section>
       </>
   )
 }

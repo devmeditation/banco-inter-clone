@@ -69,3 +69,11 @@
 
   rounded-lg
 }
+
+.interShopCardContainer {
+  @apply
+  w-full
+  m-4
+  flex
+  overflow-x-auto
+}

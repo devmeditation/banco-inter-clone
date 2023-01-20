@@ -6,23 +6,19 @@
   bg-origin-content
   bg-no-repeat
   
-  
   lg:w-screen
   lg:h-screen
 }
 .interABetterWorld {
-  @apply
-  max-w-screen-2xl
-  p-6
-  py-24
+  @apply 
+  p-4
+  lg:py-24
  
   flex
   flex-col
   lg:flex-row-reverse
   
-  
   justify-center
-  /* lg:justify-between */
   lg:justify-around
   items-center
 
@@ -32,7 +28,6 @@
 .interABetterWorldImage {
   @apply
   lg:invisible
-  p-2
 }
 
 .interABetterWorldGroup {
@@ -44,9 +39,9 @@
 .interABetterWorldGroup h2 {
   @apply
   font-Sora
-  lg:w-[94%]
-
-  py-10
+  w-[90%]
+  mt-6
+  py-4
   
   flex
   flex-col
@@ -61,22 +56,25 @@
 
 .interABetterWorldGroup p {
   @apply
-  /* pr-3 */
+  lg:w-[65%]
+  lg:py-10
   text-lg
   lg:text-lg
 }
 
 .interABetterWorldGroup button {
   @apply
-  lg:w-[55%]
+  lg:w-[35%]
   my-10
   w-full
   py-3
 
   font-semibold
   hover:text-black
-  text-[#FF7A00]
-  bg-white
-  
+  text-white
+  lg:text-[#FF7A00]
+  lg:bg-white
+  bg-[#FF7A00]
+    
   rounded-lg
 }
